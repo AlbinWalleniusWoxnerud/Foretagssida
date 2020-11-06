@@ -19,3 +19,17 @@
 .navbar-ul-li {
   padding: 1vw;
 }
+
+.mpm {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(5, 20%);
+  width: 100%;
+  height: 100vw;
+}
+
+.iss {
+  grid-area: span 3/2/9/5;
+  background-color: brown;
+  color: aqua;
+}
