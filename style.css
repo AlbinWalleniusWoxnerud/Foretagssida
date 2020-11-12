@@ -17,7 +17,7 @@
 }
 
 .navbar-ul-li {
-  padding: 1vw;
+  padding: 8px;
 }
 
 #Buy {
@@ -25,23 +25,27 @@
   justify-content: end;
 }
 
-.mpm {
+.index-main {
   display: grid;
   grid-template: repeat(10, 1fr) / repeat(10, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
-.iss {
+.start-slider {
   grid-area: 2/2/7/10;
   background-color: brown;
   color: aqua;
 }
 
-.iqr {
+.questions-reviews {
   grid-area: 8/3/10/9;
   background-color: brown;
   color: aqua;
+}
+
+.filler-div {
+  height: 10vw;
 }
 
 .footer {
@@ -49,5 +53,5 @@
   justify-content: center;
   align-content: flex-start;
   background-color: aquamarine;
-  padding: 1vw;
+  padding: 8px;
 }
