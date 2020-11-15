@@ -5,7 +5,7 @@
 }
 
 :root {
-  --navbar-height: 5vh;
+  --navbar-height: 6vh;
   --footer-height: 5vh;
   --first-padding: 8px;
   --second-padding: 16px;
@@ -14,11 +14,13 @@
 }
 
 .navbar {
-  height: var(--second-padding);
+  /*height: var(--navbar-height);*/
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: aquamarine;
+  background-color: #979ba2;
+  border: black;
+  border-style: none none solid none;
 }
 
 .navbar-ul {
@@ -28,7 +30,20 @@
 }
 
 .navbar-ul-li {
-  padding: var(--first-padding);
+  padding: var(--second-padding);
+}
+
+a:hover {
+  background-color: #dd6822;
+}
+
+#Logo {
+  /* position: relative;*/
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
 #Buy {
@@ -37,11 +52,12 @@
 }
 
 .index-main {
-  height: calc(100vh - var(--navbar-height));
+  height: calc(100vh - (var(--second-padding) * 2));
   display: grid;
-  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  grid-template: repeat(10, 10vh) / repeat(10, 10vw);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  background-color: #f3efec;
 }
 
 .start-slider {
@@ -54,7 +70,9 @@
   grid-template-rows: 50vh;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: black;
+  background-color: grey;
+  border: black;
+  border-style: solid;
 }
 
 .start-slider-1 {
@@ -79,6 +97,8 @@
   grid-area: 8/3/10/9;
   background-color: brown;
   color: aqua;
+  border: black;
+  border-style: solid;
 }
 
 .index-questions-reviews-grid {
@@ -101,12 +121,14 @@
 
 .index-questions {
   grid-area: 1 / 1 / 2 / 1;
+  width: 60vw;
+  height: 20vh;
 }
 
 .index-questions-grid {
   display: grid;
-  grid-template-columns: 60vw;
-  grid-template-rows: repeat(2, 5vh);
+  grid-template-columns: 59vw;
+  grid-template-rows: 2vh/8vh;
 }
 
 .index-reviews {
@@ -122,15 +144,30 @@
   grid-template-rows: 10vh;
 }
 
+.index-questions-para {
+  display: inline-flex;
+  font-size: var(--first-padding);
+}
+
+.index-reviews-title {
+  font-size: var(--second-padding);
+}
+
+.index-reviews-para {
+  font-size: var(--first-padding);
+}
+
 .filler-div {
   height: 0vw;
 }
 
 .footer {
-  height: var(--footer-height);
+  /*height: var(--footer-height);*/
   display: flex;
   justify-content: center;
   align-content: center;
   background-color: aquamarine;
   padding: var(--first-padding);
+  border: black;
+  border-style: solid none none none;
 }
