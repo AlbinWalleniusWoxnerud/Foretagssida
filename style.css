@@ -83,7 +83,7 @@ body {
 
 .about-main {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   margin: 4vw;
   padding: 3vw;
   color: white;
@@ -92,7 +92,7 @@ body {
 }
 
 .about-div {
-  margin-top: 4vh;
+  margin-top: 10vh;
 }
 
 .about-title {
