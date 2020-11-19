@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Poppins:wght@400;600&family=Roboto&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -22,11 +25,11 @@ body {
 }
 
 .navbar {
-  /*height: var(--navbar-height);*/
   display: flex;
   justify-content: center;
   align-content: center;
   background-color: #282630;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .navbar-ul {
@@ -38,14 +41,13 @@ body {
   overflow: hidden;
   margin: 0px;
   padding: 0px;
-  /* box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2); */
 }
 
 .navbar-ul-li {
   color: white;
   text-align: center;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
   font-size: var(--second-padding);
 }
 
@@ -53,6 +55,7 @@ body {
   display: block;
   padding: 4vh;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 
@@ -61,17 +64,19 @@ body {
 }
 
 #Logo {
-  position: relative;
-  width: 46px;
-  height: 46px;
-  overflow: hidden;
-  margin: -16px;
-  padding-bottom: -8px;
-  padding-top: 4px;
+  height: 10vh;
+  padding-right: 2vh;
 }
 
 #Buy {
   background-color: #1c5705;
+}
+
+#index-buynow {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
 }
 
 .index-main {
@@ -100,6 +105,7 @@ body {
   background-color: #282630;
   border: #171520 solid 7px;
   min-height: 100vh;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .about-div {
@@ -108,6 +114,8 @@ body {
 
 .about-title {
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .about-para {
@@ -123,14 +131,17 @@ body {
   color: white;
   background-color: #282630;
   border: #171520 solid 7px;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .res-div {
-  margin-top: 4vh;
+  margin-top: 15vh;
 }
 
 .res-title {
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .res-para {
@@ -151,6 +162,7 @@ body {
   border: #171520 solid 7px;
   margin: 5vw;
   padding: 2vw;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .t-buy-grid1 {
@@ -206,6 +218,8 @@ body {
 
 .t-buy-title {
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .t-buy-para {
@@ -242,6 +256,7 @@ body {
   color: white;
   background-color: #282630;
   border: #171520 solid 7px;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .con-inf-card-grid {
@@ -267,6 +282,8 @@ body {
 .con-inf-title {
   margin-top: 2vh;
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 #con-inf-japan-times {
@@ -288,6 +305,7 @@ body {
   align-items: center;
   border: black;
   border-style: solid;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .buy-main-grid2 {
@@ -297,6 +315,7 @@ body {
   align-items: center;
   border: black;
   border-style: solid;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .buy-main-grid3 {
@@ -306,6 +325,7 @@ body {
   align-items: center;
   border: black;
   border-style: solid;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .buy-main-grid4 {
@@ -315,6 +335,7 @@ body {
   align-items: center;
   border: black;
   border-style: solid;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .buy-main-buy {
@@ -362,6 +383,7 @@ body {
   grid-area: 2/2/3/5;
   background-color: #282630;
   border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 .start-slider-grid {
@@ -416,6 +438,7 @@ body {
   border-style: solid;
   border-radius: 20px;
   padding: 2vh;
+  box-shadow: 2px 2px 2px 1px rgba(10, 10, 10, 0.2);
 }
 
 /* Change for fitting qr */
@@ -465,30 +488,88 @@ body {
 
 .index-reviews-title {
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .index-reviews-para {
   font-size: 12px;
 }
 
-.filler-div {
-  height: 0vw;
-}
-
-.filler-div-res {
-  height: 0vh;
-}
-
 .footer {
-  /*height: var(--footer-height);*/
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 5vw;
+  grid-row-gap: 0px;
+  padding: 2vw;
   color: white;
+  background-color: #282630;
+}
+
+.footer-nav-title {
+  margin-top: 2vh;
+  font-size: 14px;
+}
+
+.footer-title {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 1vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-para {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-social {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.footer-committed {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.footer-nav-pos {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.footer-nav {
+  display: flex;
   justify-content: center;
   align-content: center;
   background-color: #282630;
-  padding: var(--second-padding);
-  border: black;
-  border-style: solid none none none;
+}
+
+.footer-nav-ul {
+  display: inline-flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-nav-ul-li {
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-nav-ul-li-a {
+  display: block;
+  padding: 1vh;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: blue;
+}
+
+.footer-nav-ul-li-a:hover {
+  background-color: #dd6822;
 }
 
 @media screen and (max-width: 1100px) {
@@ -513,7 +594,6 @@ body {
 }
 @media screen and (max-width: 900px) {
   .index-main {
-    /* height: calc(100vh - (var(--second-padding) * 2)); */
     display: grid;
     grid-template: 5vh auto 4vh auto 4vh / 1fr 1fr 15fr 1fr 1fr;
     grid-column-gap: 0px;
@@ -614,6 +694,32 @@ body {
   }
   .con-inf-header-img {
     max-width: 100vw;
+  }
+
+  .footer {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 0vw;
+    grid-row-gap: 5vh;
+    padding: 2vw;
+    color: white;
+    background-color: #282630;
+    margin-top: 2vh;
+  }
+  .footer-social {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .footer-committed {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .footer-nav-pos {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .footer-nav-ul {
+    flex-flow: row wrap;
   }
 }
 @media screen and (max-width: 600px) {
