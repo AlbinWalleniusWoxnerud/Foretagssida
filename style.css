@@ -562,7 +562,7 @@ body {
 
 .footer-nav-ul-li-a {
   display: block;
-  padding: 1vh;
+  padding: 0vh;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: blue;
