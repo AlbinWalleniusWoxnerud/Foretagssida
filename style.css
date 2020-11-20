@@ -639,10 +639,8 @@ body {
   }
 
   .start-slider-grid {
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
   }
 
   .start-slider-1 {
@@ -650,11 +648,11 @@ body {
   }
 
   .start-slider-2 {
-    grid-area: 1 / 1/ 2 / 3;
+    grid-area: 1 / 1/ 2 / 2;
   }
 
   .start-slider-3 {
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 3 / 1 / 4 / 2;
   }
 
   .index-reviews-grid {
@@ -721,25 +719,11 @@ body {
   .footer-nav-ul {
     flex-flow: row wrap;
   }
+  .footer-nav-ul-li-a {
+    padding: 2vw;
+  }
 }
 @media screen and (max-width: 600px) {
-  .start-slider-grid {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-  }
-
-  .start-slider-1 {
-    grid-area: 2 / 1 / 3 / 2;
-  }
-
-  .start-slider-2 {
-    grid-area: 1 / 1/ 2 / 2;
-  }
-
-  .start-slider-3 {
-    grid-area: 3 / 1 / 4 / 2;
-  }
-
   .buy-img {
     max-height: 25vh;
   }
