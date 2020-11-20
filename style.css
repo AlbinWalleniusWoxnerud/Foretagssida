@@ -63,6 +63,10 @@ body {
   background-color: #dd6822;
 }
 
+.current-page {
+  color: rgb(243, 197, 112);
+}
+
 #Logo {
   height: 10vh;
   padding-right: 2vh;
